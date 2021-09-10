@@ -1,0 +1,156 @@
+public class Exercicio1 
+{
+	int var1;
+	int var2;
+	int var3;
+
+	for (var1 = 1; var1 < 10; var1++) 
+	{
+		for var2 = 1; var2 < 10; var2++) 
+		{
+			var3 = var1 * var2;
+			console.log(var1," X ", var2, " = ", var3);
+		}
+	}
+}
+
+public class Exercicio2 
+{
+	int Cont;
+	int varX = prompt("Digite um numero");
+		
+	for Cont = 1; Cont < 11; Cont++) 
+	{
+		if(varX/2=0)
+		{
+    			console.log("Par");
+		}
+		if(varX/2=1)
+		{	
+			console.log("Impar");
+		}
+		int varX = prompt("Digite outro numero");
+	}
+}
+
+public class Exercicio3 
+{
+	int var1 = prompt("Digite um numero");
+	int var2 = prompt("Digite um numero");
+	int Cont;
+
+	for (Cont = var1; Cont < var2 + 1; Cont++) 
+	{
+		console.log(var1 + 1);	
+	}
+}
+
+public class Exercicio4 
+{	
+	int Cont;
+	int Soma = 0;
+		
+	for Cont = 1; Cont < 21; Cont++) 
+	{	
+		if(Cont/2=0)
+		{
+    			Soma = Soma + Cont;
+			console.log(Soma);
+		}
+		if(Cont/2=1)
+		{	
+			return;
+		}
+	}
+}
+
+public class Exercicio5
+{	
+	int Cont;
+	int Show = 0;
+		
+	for Cont = 1; Cont < 21; Cont++) 
+	{	
+		if(Cont/2=0)
+		{
+    			Show = Cont;
+			console.log(Show);
+		}
+		if(Cont/2=1)
+		{	
+			return;
+		}
+	}
+}
+
+public class Exercicio6 
+{	
+	int Cont;
+	int Soma = 0;
+		
+	for Cont = 1; Cont < 21; Cont++) 
+	{	
+		if(Cont/2=0)
+		{
+    			Soma = Soma + 1;
+			console.log(Soma);
+		}
+		if(Cont/2=1)
+		{	
+			return;
+		}
+	}
+}
+
+public class Exercicio7 
+{	
+	int Cont;
+	int media;
+	int soma;
+	int quant
+		
+	for Cont = 1; Cont < 21; Cont++) 
+	{	
+		if(Cont/2=0)
+		{
+    			quant = quant + 1;
+			soma = soma + Cont;
+		}
+		if(Cont/2=1)
+		{	
+			return;
+		}
+	}
+
+	media = soma/quant;
+	console.log(media);
+}
+
+public class Exercicio8 
+{	
+	int Cont;
+	int var1 = prompt("Digite um numero");
+	int var2 = prompt("Digite um numero");
+	int var3;
+	int var4;
+		
+	for Cont = 1; Cont < 11; Cont++) 
+	{
+		if(var1 > var2)
+		{
+    			var3 = var1
+    			var4 = var2
+		}
+		if(var1 < var2)
+		{	
+			var3 = var2
+    			var4 = var1
+		}
+		
+		int var1 = prompt("Digite um numero");
+		int var2 = prompt("Digite um numero");
+	}
+
+	console.log(var3);
+	console.log(var4);
+}
